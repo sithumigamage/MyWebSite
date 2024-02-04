@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Web Site</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<body>
+
+  <header>
+    <h1>CAKE WORLD</h1>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#cake">Cake Items</a>
+    <a href="#seasonal">Seasonal Collection</a>
+    <a href="#dessert">Dessert</a>
+    <a href="#contact">Delivery & Contact</a>
+    <a href="#order">Order</a>
+    
+  </nav>
+  <img src="ss10.png"  alt="My Photo">
+ 
+
+  <section id="home">
+    
+    <h2>Home</h2>
+    <img src="ss12.png"  alt="My Photo">
+    <h4 style="color:#ff9500;">HI,WELCOME TO CAKE WORLD!</h4>
+    <h1 style="color:rgb(255, 0, 162);">Sweetest Slice Of Paradise</h1>
+    
+    
+    <h4>world best cake for you</h4>
+    <div class="container">
+    <ul class="myUL">
+      <li>Cake Items</li>
+      <li>Seasonal Collection</li>
+      <li>Delivery & Contact</li>
+      
+    </ul>
+    </div>
+  
+    <h2 style="color:#ff0000;">ORDER NOW</h2>
+  </section>
+
+  <section id="cake">
+    <h2>Cake Items</h2>
+    <table class="center">
+      <tr>
+        <th>Cake</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td>Mocha Delight Cake</td>
+        <td>LKR.3000(1KG)</td>
+      </tr>
+      <tr>
+        <td>Chocolate trucle cake</td>
+        <td>LKR.4500(1KG)</td>
+      </tr>
+      <tr>
+        <td>Sticky Nutty Cake</td>
+        <td>LKR.3500(1KG)</td>
+      </tr>
+      <tr>
+        <td>Milk Chocolate Cake</td>
+        <td>LKR.4500(1KG)</td>
+      </tr>
+      <tr>
+        <td>Expresso Almond Cake</td>
+        <td>LKR.5500(1KG)</td>
+      </tr>
+      <img src="SS1.png"  alt="My Photo">
+      <img src="SS2.png"  alt="My Photo">
+      <img src="SS3.png"  alt="My Photo">
+      <img src="SS4.png"  alt="My Photo">
+      <img src="SS5.png"  alt="My Photo">
+    </table>
+  </section>
+
+  <section id="seasonal">
+    <h2>Seasonal Collection</h2>
+    <table class="center">
+      <tr>
+        <th>Cristmas Box</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td>Silver Cristmas Box</td>
+        <td>LKR.10000</td>
+      </tr>
+      <tr>
+        <td>Gold Cristmas Box</td>
+        <td>LKR.11500</td>
+      </tr>
+      <tr>
+        <td>Platinum Cristmas Box</td>
+        <td>LKR.12500</td>
+      </tr>
+      <img src="SS01.png"  alt="My Photo">
+      <img src="SS02.png"  alt="My Photo">
+      <img src="SS03.png"  alt="My Photo">
+    </table>
+  </section>
+
+  <section id="dessert">
+    <h2>Dessert</h2>
+    <table class="center">
+      <tr>
+        <th>Dessert Items</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td>Dark Chocolate with Mint</td>
+        <td>LKR.1000</td>
+      </tr>
+      <tr>
+        <td>Milk Chocolate  with Dried Fruits</td>
+        <td>LKR.1500</td>
+      </tr>
+      <tr>
+        <td>Creame Bruly</td>
+        <td>LKR.1250</td>
+      </tr>
+      <tr>
+        <td>Tiramisu Black Forest</td>
+        <td>LKR.1350</td>
+      </tr>
+      <img src="SS04.png"  alt="My Photo">
+      <img src="SS05.png"  alt="My Photo">
+      <img src="SS07.png"  alt="My Photo">
+      <img src="SS08.png"  alt="My Photo">
+    </table>
+  </section>
+
+  <section id="contact">
+    <h2>Delivery & Contact</h2>
+    <img src="ss13.png"  alt="My Photo">
+    <h5>Our Location</h5>
+    <p>No 23, Dharmapala Mawath<br>Colombo 02.</p>
+    <h5>we islandwide delivery your favourite CAKE WORLD delisiuos cakes.</h5>
+    <h2>Contact us!</h2>
+    <div class="container">
+    <ul class="myUL">
+      <li>Email: cakeworld@gmail.com</li>
+      <li>Facebook: CAKE WORLD</li>
+      <li>Instagram: cake world</li>
+    </ul>
+  </div>
+    <p>Call Us 0472236203</p>
+  </section>
+
+  <section id="order">
+    <h2>Ordering Service</h2> 
+    <img src="ss22.png"  alt="My Photo">
+  
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="namecake">Cake Item:</label>
+      <input type="text" id="namecake" name="namecake" required>
+  
+
+  
+      <label for="address">Address:</label>
+      <input type="text" id="address" name="address" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+  
+      <button type="button" onclick="placeOrder()">Order cake</button>
+    </form>
+  
+    
+  </section>
+
+  
+
+  <footer>
+    &copy; 2023 cake world pvt
+  </footer>
+
+  <script>
+    // Simple JavaScript function for animation
+    window.onload = function() {
+      const header = document.querySelector('header');
+      header.style.opacity = 0;
+      let opacity = 0;
+
+      function fadeIn() {
+        if (opacity < 1) {
+          opacity += 0.1;
+          header.style.opacity = opacity;
+          setTimeout(fadeIn, 100);
+        }
+      }
+
+      fadeIn();
+
+    };
+
+    function placeOrder() {
+      // Retrieve customer details
+      var name = document.getElementById("name").value;
+      var namecake = document.getElementById("namecake").value;
+      var address = document.getElementById("address").value;
+      var email = document.getElementById("email").value;
+
+      // Perform validation if needed
+
+      // Display a confirmation message
+      alert("Thank you, " + name + "! Your cake order has been placed to " + address + ". We will contact you at " + email + ". you ordered " + namecake + ".");
+      // Additional logic for handling the order can be added here
+    }
+
+  </script>
+
+
+
+
+  
+</body>
+</html>

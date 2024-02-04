@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    
+  }
+
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    background-image: url('ss14.png');
+  
+  }
+
+  nav {
+    background-color: #9CF1DD;
+    padding: 10px;
+    text-align: center;
+  }
+
+  nav a {
+    color: #E1549B;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+
+  section {
+    padding: 20px;
+    text-align: center;
+  }
+
+  img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+  }
+
+  ul {
+    list-style-type: square;
+    color: #e15459;
+    
+  }
+
+  table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 2px;
+    
+  }
+
+  table.center {
+    margin-left: auto; 
+    margin-right: auto;
+  }
+
+  th, td {
+    border: 5px solid #706e6f;
+    padding: 10px;
+    text-align: left;
+    
+  }
+
+  footer {
+    background-color: #341ada;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  div.container {
+    text-align: center;
+  }
+  
+  ul.myUL {
+    display: inline-block;
+    text-align: left;
+  }
+
+ 
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  label {
+    margin-bottom: 5px;
+    padding: 1px;
+  }
+
+
+  input {
+    padding: 4px;
+    margin-bottom: 10px;
+    width: 200px;
+    box-sizing: border-box;
+  }
+
+  button {
+    padding: 20px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #02000cd1;
+    color: #fff;
+  }
